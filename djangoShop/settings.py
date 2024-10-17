@@ -224,3 +224,10 @@ CKEDITOR_5_CONFIGS = {
         }
     }
 }
+
+ACCOUNT_EMAIL_VERIFICATION = 'ryabukhin_nikita@mail.ru'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = 'ryabukhin_nikita@mail.ru'
+EMAIL_HOST_PASSWORD = 'we79auVM'

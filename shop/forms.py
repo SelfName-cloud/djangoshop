@@ -10,11 +10,11 @@ PAYMENT = {
 }
 class CheckoutForm(forms.Form):
     first_name = forms.CharField(widget=forms.TextInput(attrs={
-        'placeholder': 'Andrey',
+        'placeholder': 'Имя',
         'class': 'form-control',
     }))
     second_name = forms.CharField(widget=forms.TextInput(attrs={
-        'placeholder': 'Volodin',
+        'placeholder': 'Фамилия',
         'class': 'form-control',
     }))
     phone = forms.CharField(widget=forms.TextInput(attrs={
@@ -22,7 +22,6 @@ class CheckoutForm(forms.Form):
         'class': 'form-control',
     }))
     address = forms.CharField(widget=forms.TextInput(attrs={
-        'placeholder': 'г.Москва',
         'class': 'form-control',
     }))
     telegram = forms.CharField(widget=forms.TextInput(attrs={
